@@ -1,7 +1,5 @@
 h1{
     text-align: center;
-    background-color: rgb(25, 38, 56);
-    border-radius: 250px;
     color: rgb(223, 247, 14);
   }
 body{
@@ -46,6 +44,9 @@ body{
     box-shadow:   2px 2px black;
     
   }
+  .last{
+    display: flex;
+  }
    #del{
     color: white;
     background-color:rgb(50, 50, 104);
@@ -53,10 +54,14 @@ body{
   #reset{
     color: white;
     background-color:rgb(50, 50, 104);
+    width: 182px;
+
   }
   #equal{
     color: white;
     background-color: #D13F30;
+    width: 180px;
+    margin-left: 15px;
   }
   .btn:hover {
     background-color: rgb(111, 211, 124);
